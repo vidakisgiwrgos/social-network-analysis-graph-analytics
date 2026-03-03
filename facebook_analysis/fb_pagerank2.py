@@ -5,7 +5,8 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 
 import networkx as nx
 
-dataset_dir = r"C:\Users\User\Videos\sn_project\facebook"
+dataset_dir = os.path.join(DATA_DIR, "facebook")
+
 G = nx.Graph()
 for fname in os.listdir(dataset_dir):
     if fname.endswith(".edges"):
