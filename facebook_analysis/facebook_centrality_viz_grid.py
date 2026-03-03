@@ -6,7 +6,7 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 import networkx as nx
 import matplotlib.pyplot as plt
 
-dataset_dir = r"C:\Users\User\Videos\sn_project\facebook"
+dataset_dir = os.path.join(DATA_DIR, "facebook")
 
 # Φόρτωση undirected γράφου
 G = nx.Graph()
