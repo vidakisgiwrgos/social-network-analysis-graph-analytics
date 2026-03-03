@@ -11,7 +11,7 @@ from community import community_louvain   # pip install python-louvain
 import matplotlib.pyplot as plt
 from sklearn.metrics import normalized_mutual_info_score
 
-raw_dir    = r"C:\Users\User\Videos\sn_project\ogbn-arxiv\ogbn-arxiv\ogbn_arxiv\raw"
+dataset_dir = os.path.join(DATA_DIR, "citations")
 edges_path = os.path.join(raw_dir, "edge.csv.gz")
 year_path  = os.path.join(raw_dir, "node_year.csv.gz")   # file with one year per line
 
