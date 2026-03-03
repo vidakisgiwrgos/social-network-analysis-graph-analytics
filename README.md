@@ -60,6 +60,28 @@ The repository is structured into modular analysis components:
 
 ---
 
-## Status
+## Demo Graphs
 
-Academic research project – completed.
+## Snowball-Sampled Citation Subgraph (~4K nodes)
+
+![Sampled Graph](figures/citations_sampled_graph.png)
+
+## Community Size Distribution (Louvain)
+
+![Communities](figures/citations_community_distribution.png)
+
+## Modularity Evolution Over Time
+
+![Modularity](figures/citations_modularity_over_time.png)
+
+## Engineering Focus
+
+This project explores scalable graph analytics techniques applicable to:
+
+- Influence modeling
+- Ranking systems
+- Community intelligence
+- Knowledge graph evolution
+- Recommender and discovery systems
+
+The emphasis is on algorithmic efficiency, sampling strategies, and structural signal extraction from large-scale networks.
