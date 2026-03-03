@@ -74,6 +74,8 @@ The repository is structured into modular analysis components:
 
 ![Modularity](figures/citations_modularity_over_time.png)
 
+---
+
 ## Engineering Focus
 
 This project explores scalable graph analytics techniques applicable to:
