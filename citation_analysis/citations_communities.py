@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from collections import Counter, deque
 import community as community_louvain  # pip install python-louvain
 
-edges_path = r"C:\Users\User\Videos\sn_project\ogbn-arxiv\ogbn-arxiv\arxiv\raw\edge.csv.gz"
+dataset_dir = os.path.join(DATA_DIR, "citations")
 
 if not os.path.exists(edges_path):
     raise FileNotFoundError(f"Δεν βρέθηκε το αρχείο:\n  {edges_path}")
