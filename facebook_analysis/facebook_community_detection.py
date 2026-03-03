@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from collections import Counter
 import community as community_louvain
 
-dataset_dir = r"C:\Users\User\Videos\sn_project\facebook"
+dataset_dir = os.path.join(DATA_DIR, "facebook")
 
 # Φόρτωση undirected γράφου
 G = nx.Graph()
